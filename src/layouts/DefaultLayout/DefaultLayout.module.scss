@@ -1,0 +1,7 @@
+.container {
+  @apply h-screen w-full flex flex-col items-center relative;
+
+  .pageContainer {
+    @apply block md:flex grow md:flex-row-reverse overflow-hidden p-0 relative w-full justify-center;
+  }
+}
