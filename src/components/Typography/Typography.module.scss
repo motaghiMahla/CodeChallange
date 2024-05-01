@@ -1,0 +1,175 @@
+@mixin typography($fontSize, $lineHeight, $letterSpacing, $fontWeight) {
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+}
+
+.h1 {
+  @include typography(18px, 28px, -0.2px, 700);
+  @screen md {
+    @include typography(21px, 32px, -0.4px, 700);
+  }
+}
+.h2 {
+  @include typography(15px, 24px, 0, 700);
+  @screen md {
+    @include typography(18px, 28px, -0.2px, 700);
+  }
+}
+.h3 {
+  @include typography(13px, 20px, 0, 700);
+  @screen md {
+    @include typography(15px, 24px, 0, 700);
+  }
+}
+.h4 {
+  @include typography(10px, 16px, 0.2px, 700);
+  @screen md {
+    @include typography(13px, 20px, 0, 700);
+  }
+}
+.h5 {
+  @include typography(8px, 12px, 0.2px, 700);
+  @screen md {
+    @include typography(10px, 16px, 0, 700);
+  }
+}
+.subtitle1 {
+  @include typography(18px, 28px, -0.2px, 600);
+  @screen md {
+    @include typography(21px, 32px, -0.4px, 600);
+  }
+}
+.subtitle2 {
+  @include typography(15px, 24px, 0, 600);
+  @screen md {
+    @include typography(18px, 28px, -0.2px, 600);
+  }
+}
+.subtitle3 {
+  @include typography(13px, 20px, 0, 600);
+  @screen md {
+    @include typography(15px, 24px, 0, 600);
+  }
+}
+.subtitle4 {
+  @include typography(10px, 16px, 0.2px, 600);
+  @screen md {
+    @include typography(13px, 20px, 0, 600);
+  }
+}
+.subtitle5 {
+  @include typography(8px, 12px, 0.2px, 600);
+  @screen md {
+    @include typography(10px, 16px, 0, 600);
+  }
+}
+.button1 {
+  @include typography(18px, 28px, -0.2px, 500);
+  @screen md {
+    @include typography(21px, 32px, -0.4px, 500);
+  }
+}
+.button2 {
+  @include typography(15px, 24px, 0, 500);
+  @screen md {
+    @include typography(18px, 28px, -0.2px, 500);
+  }
+}
+.button3 {
+  @include typography(13px, 20px, 0, 500);
+  @screen md {
+    @include typography(15px, 24px, 0, 500);
+  }
+}
+.button4 {
+  @include typography(10px, 16px, 0.2px, 500);
+  @screen md {
+    @include typography(13px, 20px, 0, 500);
+  }
+}
+.button5 {
+  @include typography(8px, 12px, 0.2px, 500);
+  @screen md {
+    @include typography(10px, 16px, 0, 500);
+  }
+}
+.body1 {
+  @include typography(18px, 28px, -0.2px, 400);
+  @screen md {
+    @include typography(21px, 32px, -0.4px, 400);
+  }
+}
+.body2 {
+  @include typography(15px, 24px, 0, 400);
+  @screen md {
+    @include typography(18px, 28px, -0.2px, 400);
+  }
+}
+.body3 {
+  @include typography(13px, 20px, 0, 400);
+  @screen md {
+    @include typography(15px, 24px, 0, 400);
+  }
+}
+.body4 {
+  @include typography(10px, 16px, 0.2px, 400);
+  @screen md {
+    @include typography(13px, 20px, 0, 400);
+  }
+}
+.body5 {
+  @include typography(8px, 12px, 0.2px, 400);
+  @screen md {
+    @include typography(10px, 16px, 0, 400);
+  }
+}
+.body6 {
+  @include typography(9px, 14px, 0.2px, 400);
+  @screen md {
+    @include typography(12px, 18px, 0, 400);
+  }
+}
+.caption1 {
+  @include typography(18px, 28px, -0.2px, 300);
+  @screen md {
+    @include typography(21px, 32px, -0.4px, 300);
+  }
+}
+.caption2 {
+  @include typography(15px, 24px, 0, 300);
+  @screen md {
+    @include typography(18px, 28px, -0.2px, 300);
+  }
+}
+.caption3 {
+  @include typography(13px, 20px, 0, 300);
+  @screen md {
+    @include typography(15px, 24px, 0, 300);
+  }
+}
+.caption4 {
+  @include typography(10px, 16px, 0.2px, 300);
+  @screen md {
+    @include typography(13px, 20px, 0, 300);
+  }
+}
+.caption5 {
+  @include typography(8px, 12px, 0.2px, 300);
+  @screen md {
+    @include typography(10px, 16px, 0, 300);
+  }
+}
+.caption6 {
+  @include typography(12px, 18px, 0.2px, 300);
+  @screen md {
+    @include typography(13px, 20px, 0, 300);
+  }
+}
+.captionXd {
+  @include typography(9px, 14px, 0.2px, 300);
+  @screen md {
+    @include typography(10px, 16px, 0, 300);
+  }
+}

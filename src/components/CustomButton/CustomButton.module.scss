@@ -1,0 +1,32 @@
+.button {
+  @apply w-full rounded-lg p-4 md:p-3 justify-center align-middle inline-flex items-center gap-2 box-border relative;
+}
+.primary {
+  @apply bg-Ruby text-white  border border-Ruby;
+}
+.danger {
+  @apply text-Scarlet  border border-Scarlet;
+}
+.secondary {
+  @apply bg-Asphalt text-white border border-Asphalt;
+}
+
+.tertiary {
+  @apply bg-white text-Asphalt border border-Asphalt;
+}
+.quaternary {
+  @apply bg-transparent border-0 text-Royal;
+}
+.quaternaryBorder {
+  @apply bg-transparent border border-Royal text-Royal;
+}
+.senary {
+  @apply bg-Smoke text-Asphalt border-0;
+}
+
+.disable {
+  @apply bg-transparent text-Pewter  cursor-not-allowed border-Pewter border;
+}
+.default {
+  @apply bg-transparent;
+}
