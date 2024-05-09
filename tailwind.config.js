@@ -1,8 +1,11 @@
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-    "./container/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   important: true,
   theme: {
@@ -27,7 +30,7 @@ module.exports = {
       Snuff: "#E8E8EF",
       Ruby: "#F03E58",
       Bubblegum: "#F88096",
-      Parakeet: "#44A663",
+      Purple: "#44A663",
       Tea: "#EDFEED",
       Dandelion: "#FFD65C",
       Amber: "#FFB044",
@@ -53,5 +56,4 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@headlessui/tailwindcss")],
 };
